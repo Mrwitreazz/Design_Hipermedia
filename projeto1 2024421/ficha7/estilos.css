@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+}
+#fundo{
+    background-image: url('https://i.pinimg.com/originals/5f/fc/6d/5ffc6d8cec9b7d558c8b5c2f888b824f.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 25%;
+}
+#fundo .button{
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+#fundo .button:hover{
+    background-color: white;
+    color: black;
+}
+.painel {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    overflow: hidden;
+    color: gray;
+   }
+   .painel .painel_titulo {
+    color: steelblue;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   .flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin: 20px 25%;
+    justify-content: center;
+   }

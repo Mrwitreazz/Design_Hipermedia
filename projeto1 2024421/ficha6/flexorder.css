@@ -1,0 +1,68 @@
+.flexwraper{
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexitems{
+    display: flex;
+    align-items: center;
+    min-height: 6.25rem;
+    padding: 1rem;
+}
+header {
+    background-color: #105B63;
+    order: -1;
+   }
+footer{ background-color: #BD4932;
+}
+nav {
+background-color: rgb(255, 240, 145);
+}
+.foco {
+background-color: #BD4932;
+}
+.ultimas {
+background-color: #DB9E36;
+}
+.agenda {
+background-color: #FFD34E;
+}
+.links {
+ background-color: #DB9E36;
+ }
+ @media (min-width: 600px) {
+    .flexwrapper {
+    flex-flow: row wrap;
+    height: 97vh;
+    display: flex;
+    }
+    header {
+    width: 100%;
+    order: 1;
+    }
+    nav {
+    width: 100%;
+    order: 2;
+    }
+    .foco {
+    width: 100%;
+    order: 3;
+    }
+    .agenda {
+    flex: 1;
+    order: 5;
+    }
+    .ultimas {
+    flex: 2;
+    order: 4;
+    }
+    .links {
+    width: 200px;
+    order: 6;
+    }
+    footer {
+    width: 100%;
+    order: 7;
+    }
+   }

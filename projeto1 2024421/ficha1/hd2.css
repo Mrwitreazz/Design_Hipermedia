@@ -1,0 +1,21 @@
+h1,h3,h4{
+    color: rgb(19, 130, 204);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(165, 163, 163);
+}
+
+aside{
+    background-color: rgb(165, 163, 163);
+    padding: 15px;
+    margin-bottom: 5%;
+    border-bottom: 3px solid cadetblue;
+    border-top: 3px solid cadetblue;
+}
+.wrapper{
+width: 40%;
+text-align: justify;
+margin: auto;
+}

@@ -1,0 +1,72 @@
+.flex-container{
+    display: flex;
+    width: 280px;
+    height: 280px;
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+}
+.flex-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+.verde{background-color: green;}
+.amarelo{background-color: yellow;}
+.vermelho{background-color: red;}
+
+.um{justify-content: flex-end;}
+.dois{justify-content:center;}
+.tres{justify-content: space-around;}
+.quat{justify-content: space-between;}
+.cinco{
+justify-content:left ;
+align-items: flex-end;}
+.se{
+    justify-content:center;
+    align-items: center;
+}
+.sete{
+    justify-content:space-around ;
+    align-items: flex-end;
+}
+.oito{justify-content: right;}
+.nove{flex-direction: column;}
+.dez{justify-content: left;}
+.onze{flex-direction: column;
+justify-content: end;}
+.doze{flex-direction: column;
+justify-content: space-between;}
+.treze{justify-content: center;
+align-items: flex-end;}
+.qua{order: -1;}
+.ver{order: -1;}
+.ama{align-self: flex-end;}
+
+.amare{align-self: flex-end;}
+.ver{justify-content: la;}
+
+.alo{flex-wrap: wrap;}
+
+.fra{flex-direction: column;
+flex-wrap: wrap;}
+.q{align-self: center;}
+.ve{align-self: flex-end;}
+
+.reb{flex-wrap: wrap;
+align-content: flex-start;}
+
+.reba{flex-wrap: wrap;
+align-content: flex-end;}
+
+.ola{align-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+flex-direction: column-reverse;}
+
+.oola{flex-wrap: wrap-reverse;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-between;}
